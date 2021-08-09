@@ -160,26 +160,26 @@
                                     <div class="col-sm-12 col-md-2">
                                         <label for="zip" class="form-label">Zip</label>
                                         <input type="text" class="form-control" id="zip" name="zip" required autocomplete="off"
-                                        pattern=".^[ABCEGHJ-NPRSTVXY]\d[ABCEGHJ-NPRSTV-Z][ -]?\d[ABCEGHJ-NPRSTV-Z]\d$" placeholder="H2Z 1B8 or H2Z-1B8">
+                                        pattern="[ABCEGHJ-NPRSTVXY]\d[ABCEGHJ-NPRSTV-Z][ -]?\d[ABCEGHJ-NPRSTV-Z]\d" placeholder="H2Z 1B8 or H2Z-1B8">
                                     </div>
                                     <div class="col-sm-12 col-md-4">
                                         <label for="email" class="form-label">Email</label>
-                                        <input type="email" class="form-control" id="email" placeholder="example@abc.com" name="email" required autocomplete="off" pattern=".+@[a-zA-Z]{3,}\.(ca|com)">
+                                        <input type="email" class="form-control" id="email" placeholder="example@abc.com" name="email" required autocomplete="off" pattern="+@[a-zA-Z]{3,}\.(ca|com)">
                                     </div>
                                     <div class="col-12">
                                         <label for="city">City</label>
                                         <input type="text" class="form-control" id="city" name="city" required autocomplete="off" list="cities">
                                         <datalist id="cities">
-                                            <option>Toronto</option>
-                                            <option>Vancouver</option>
-                                            <option>Montreal</option>
-                                            <option>Niagara Falls</option>
-                                            <option>Victoria</option>
-                                            <option>Halifax</option>
-                                            <option>Quebec City</option>
-                                            <option>Calgary</option>
-                                            <option>Ottawa</option>
-                                            <option>Edmonton</option>
+                                            <option value="Toronto">
+                                                <option value="Vancouver">
+                                                <option value="Montreal">
+                                                <option value="Niagara Falls">
+                                                <option value="Victoria">
+                                                <option value="Halifax">
+                                                <option value="Quebec City">
+                                                <option value="Calgary">
+                                                <option value="Ottawa">
+                                                <option value="Edmonton">
                                         </datalist>
                                     </div>
                                     <div class="col-12">
